@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <div className="img" style={{ backgroundImage: `url(${Bg1})`}}>
     <section className="blog container section" id="blog">
-      <h2 className="section__title">Latest Posts</h2>
+      <h2 className="section_title">Latest Posts</h2>
 
       <div className="blog__container grid">
         <div className="blog__card">
