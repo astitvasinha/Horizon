@@ -1,11 +1,13 @@
 import React from "react";
 import "./blog.css";
+import Bg1 from "../../assets/bg2.jpg";
 import Image1 from "../../assets/blog-1.svg";
 import Image2 from "../../assets/blog-2.svg";
 import Image3 from "../../assets/blog-3.svg";
 
 const Blog = () => {
   return (
+    <div className="img" style={{ backgroundImage: `url(${Bg1})`}}>
     <section className="blog container section" id="blog">
       <h2 className="section__title">Latest Posts</h2>
 
@@ -72,6 +74,7 @@ const Blog = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
