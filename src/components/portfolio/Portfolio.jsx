@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./portfolio.css";
+import Bg1 from "../../assets/bg2.jpg";
 import Menu from "./Menu";
 
 const Portfolio = () => {
@@ -13,6 +14,7 @@ const Portfolio = () => {
   };
 
   return (
+    <div className="img" style={{ backgroundImage: `url(${Bg1})`}}>
     <section className="work container section" id="work">
       <h2 className="section__title">Recent Works</h2>
 
@@ -54,6 +56,7 @@ const Portfolio = () => {
         })}
       </div>
     </section>
+    </div>
   );
 };
 
