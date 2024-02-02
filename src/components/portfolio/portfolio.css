@@ -110,6 +110,16 @@
   }
 }
 
+.section_title {
+    color:aliceblue;
+    font-size: var(--h1-font-size);
+    margin-left: 0.875rem;
+    font-weight: var(--font-bold);
+    position: relative;
+    margin-bottom: 3.75rem;
+  }
+
+
 @media screen and (max-width: 768px) {
   .work__container {
       grid-template-columns: 310px;
