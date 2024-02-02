@@ -1,13 +1,15 @@
 import React from "react";
 import "./pricing.css";
+import Bg1 from "../../assets/bg2.jpg";
 import Image1 from "../../assets/price-1.svg";
 import Image2 from "../../assets/price-2.svg";
 import Image3 from "../../assets/price-3.svg";
 
 const Pricing = () => {
   return (
+    <div className="img" style={{ backgroundImage: `url(${Bg1})`}}>
     <section className="pricing container section">
-      <h2 className="section__title">Pricing Plans</h2>
+      <h2 className="section_title">Pricing Plans</h2>
 
       <div className="pricing__container grid">
         <div className="pricing__item">
@@ -57,6 +59,7 @@ const Pricing = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
