@@ -1,5 +1,6 @@
 import React from "react";
 import "./services.css";
+import Bg1 from "../../assets/bg2.jpg";
 import Image1 from "../../assets/service-1.svg";
 import Image2 from "../../assets/service-2.svg";
 import Image3 from "../../assets/service-3.png";
@@ -30,8 +31,9 @@ const data = [
 
 const Services = () => {
   return (
+    <div className="img" style={{ backgroundImage: `url(${Bg1})`}}>
     <section className="services container section" id="services">
-      <h2 className="section__title">Services</h2>
+      <h2 className="section_title">Services</h2>
 
       <div className="services__container grid">
         {data.map(({ id, image, title, description }) => {
@@ -46,6 +48,7 @@ const Services = () => {
         })}
       </div>
     </section>
+    </div>
   );
 };
 
