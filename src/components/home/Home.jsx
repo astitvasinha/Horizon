@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import office from "../../assets/office.svg";
+import office from "../../assets/office.jpg";
 import Me from "../../assets/Horizon_logo.png";
 import HeaderSocials from "./HeaderSocials";
 
